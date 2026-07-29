@@ -1,12 +1,13 @@
 // This powerful wrapper provides the ability to store a positive integer value.
 // TODO: Rewrite it using a generic so that it supports wrapping ANY type.
-struct Wrapper {
-    value: u32,
+#[derive(PartialEq, PartialOrd)]
+struct Wrapper<G> {
+    value: G,
 }
 
 // TODO: Adapt the struct's implementation to be generic over the wrapped value.
-impl Wrapper {
-    fn new(value: u32) -> Self {
+impl <G: PartialOrd> Wrapper<G> {
+    fn new(value: G) -> Self {
         Wrapper { value }
     }
 }
