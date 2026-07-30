@@ -1,53 +1,21 @@
-mod test;
+mod init;
+mod io;
+mod engine;
+mod tab;
 use std::env::args;
 
-#[derive(Debug)]
-enum StartingArgsError {
-    NotTheGoodNbOfArgs,
-    NotTheGoodNbOfLines,
-    NotTheGoodNbOfSticksAllowed,
-    
-    // Ici on évite d'écrire ParseInt(ParseIntError) car on s'en fou de récup l'erreur émise par parse().
-    // C'est uiquement pour éviter le warning et car on sait que si parse renvoie une erreur, c'est que l'utilisateur n'a pas bien écrit son nombre
-    ParseInt 
-}
+use crate::tab::Tab;
 
 
 
-fn errors_cases(args: Vec<String>) -> Result<(), StartingArgsError> {
-    if args.len() != 3 {
-        return Err(StartingArgsError::NotTheGoodNbOfArgs)
-    }
 
-    let nb_lines = args.get(1);
-    match nb_lines {
-        Some(nb_str) => {
-            let nb: u64 = nb_str.parse().map_err(|_| StartingArgsError::ParseInt)?; // Ici on fait un lambda qui jette l'erreur ParseIntError pour return notre erreur
-            if nb < 3 || nb > 100 { return Err(StartingArgsError::NotTheGoodNbOfLines) }
-        }
-        _ => return Err(StartingArgsError::NotTheGoodNbOfArgs) // Ne devrait pas arriver étant donné la première sécu (Obligation du compilateur)
-    }
-
-    let nb_sticks_allowed = args.get(2);
-    match nb_sticks_allowed {
-        Some(nb_str) => {
-            let nb: u64 = nb_str.parse().map_err(|_| StartingArgsError::ParseInt)?;
-            if nb <= 0 { return Err(StartingArgsError::NotTheGoodNbOfSticksAllowed) }
-        }
-        _ => return Err(StartingArgsError::NotTheGoodNbOfArgs) // Ne devrait pas arriver étant donné la première sécu (Obligation du compilateur)
-    }
-    Ok(())
-}
-
-fn print_args(args: &Vec<String>) {
-    args.iter().for_each(
-        |arg| println!("Arg starting block : {}", arg));
-}
-
-fn main() -> Result<(), StartingArgsError> {
+fn main() -> Result<(), init::StartingArgsError> {
     let args: Vec<String> = args().collect();
-    print_args(&args);
-    errors_cases(args)?;
-    println!("Hello, world! {}", test::slt());
+    let (nb_lines, nb_sticks_allowed) = init::errors_cases(args)?;
+    let mut tab = Tab::new();
+    tab.init(nb_lines as usize);
+    engine::engine(tab);
+
     Ok(())
 }
+
