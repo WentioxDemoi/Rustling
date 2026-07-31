@@ -14,7 +14,7 @@ fn main() -> Result<(), init::StartingArgsError> {
     let args: Vec<String> = args().collect();
     let (nb_lines, nb_sticks_allowed) = init::errors_cases(args)?;
     let mut tab = Tab::new();
-    tab.init(nb_lines as usize);
+    tab.init(nb_lines);
     let mut engine = Engine::new(tab, nb_sticks_allowed);
     engine.engine();
     Ok(())

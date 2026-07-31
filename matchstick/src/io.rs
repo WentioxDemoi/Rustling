@@ -17,8 +17,8 @@ pub fn get_line() -> Option<String> {
 }
 
 // Pour afficher l'arbre
-pub fn display_tab(tab: &Vec<String>) {
-    tab.iter().enumerate().for_each(|(i, string)| println!("[{}]{}", i, string)); 
+pub fn display_tab(tab: &Vec<u8>) {
+    tab.iter().enumerate().for_each(|(i, nb)| println!("[{}]{}{}", i, " ".repeat(tab.len() - 1 - i), "|".repeat(*nb as usize))); 
 }
 
 // Pour afficher les messages ingame

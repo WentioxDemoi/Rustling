@@ -2,10 +2,7 @@ use crate::Tab;
 use crate::io;
 
 use std::num::ParseIntError;
-// use rand::Rng;
 use rand::RngExt;
-// use rand::random_bool;
-// use rand::random_range;
 
 pub struct Engine {
     tab: Tab,
@@ -91,7 +88,7 @@ impl Engine {
         loop {
             let line = self.get_target();
             let nb = self.get_nb_sticks_to_remove(line);
-            self.tab.remove(line as usize, nb as usize);
+            self.tab.remove(line as usize, nb);
             if self.tab.get_total_nb_sticks_left() == 0 {
                 break;
             }
@@ -103,14 +100,14 @@ impl Engine {
                     break;
                 }
             }
-            
+
             let random_nb: u8;
             if self.tab.get_nb_sticks_on_line(random_line) > self.nb_sticks_allowed {
                 random_nb = rng.random_range(1..=self.nb_sticks_allowed);
             } else {
                 random_nb = rng.random_range(1..=self.tab.get_nb_sticks_on_line(random_line));
             }
-            self.tab.remove(random_line, random_nb as usize);
+            self.tab.remove(random_line, random_nb);
             io::display_msg(
                 "AI removed ".to_string()
                     + &random_nb.to_string()
