@@ -1,5 +1,6 @@
-   0.028101209s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="arc1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "arc1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/19_smart_pointers/arc1.rs", Edition2024) }
-   0.028116250s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="arc1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-9abb75577e705660/test-bin-arc1`
+    Blocking waiting for file lock on build directory
+   0.047542667s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="arc1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "arc1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/19_smart_pointers/arc1.rs", Edition2024) }
+   0.047558750s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="arc1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-9abb75577e705660/test-bin-arc1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -22,8 +23,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.031981875s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="arc1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "arc1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/19_smart_pointers/arc1.rs", Edition2024) }
-   0.031994417s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="arc1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-be3053aeab79cdc1/bin-arc1`
+   0.050979542s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="arc1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "arc1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/19_smart_pointers/arc1.rs", Edition2024) }
+   0.050990875s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="arc1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-be3053aeab79cdc1/bin-arc1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -46,8 +47,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.032737084s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="as_ref_mut"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "as_ref_mut", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/as_ref_mut.rs", Edition2024) }
-   0.032746542s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="as_ref_mut"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-e474c6bc7fb3cfaa/test-bin-as_ref_mut`
+   0.051497125s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="as_ref_mut"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "as_ref_mut", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/as_ref_mut.rs", Edition2024) }
+   0.051503875s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="as_ref_mut"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-e474c6bc7fb3cfaa/test-bin-as_ref_mut`
 
 Caused by:
     No such file or directory (os error 2)
@@ -70,8 +71,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.033055000s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="as_ref_mut"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "as_ref_mut", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/as_ref_mut.rs", Edition2024) }
-   0.033060542s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="as_ref_mut"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-61f3defe9de96b57/bin-as_ref_mut`
+   0.051718959s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="as_ref_mut"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "as_ref_mut", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/as_ref_mut.rs", Edition2024) }
+   0.051724417s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="as_ref_mut"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-61f3defe9de96b57/bin-as_ref_mut`
 
 Caused by:
     No such file or directory (os error 2)
@@ -94,8 +95,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.033584334s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="box1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "box1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/19_smart_pointers/box1.rs", Edition2024) }
-   0.033589500s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="box1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-154fe17de76dfe06/test-bin-box1`
+   0.052195625s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="box1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "box1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/19_smart_pointers/box1.rs", Edition2024) }
+   0.052200542s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="box1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-154fe17de76dfe06/test-bin-box1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -118,8 +119,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.033847792s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="box1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "box1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/19_smart_pointers/box1.rs", Edition2024) }
-   0.033852417s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="box1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-39140d032b7e4b6e/bin-box1`
+   0.052404917s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="box1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "box1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/19_smart_pointers/box1.rs", Edition2024) }
+   0.052409292s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="box1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-39140d032b7e4b6e/bin-box1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -142,8 +143,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.035972834s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="cow1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "cow1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/19_smart_pointers/cow1.rs", Edition2024) }
-   0.035982125s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="cow1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-bd04864c102c5416/test-bin-cow1`
+   0.054187250s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="cow1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "cow1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/19_smart_pointers/cow1.rs", Edition2024) }
+   0.054194000s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="cow1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-bd04864c102c5416/test-bin-cow1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -166,8 +167,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.041200334s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="from_into"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "from_into", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/from_into.rs", Edition2024) }
-   0.041221750s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="from_into"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-0305118757884edb/test-bin-from_into`
+   0.059183084s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="from_into"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "from_into", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/from_into.rs", Edition2024) }
+   0.059194000s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="from_into"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-0305118757884edb/test-bin-from_into`
 
 Caused by:
     No such file or directory (os error 2)
@@ -190,8 +191,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.041687959s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="from_into"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "from_into", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/from_into.rs", Edition2024) }
-   0.041695375s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="from_into"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-99ed3ddc5526b524/bin-from_into`
+   0.059444500s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="from_into"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "from_into", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/from_into.rs", Edition2024) }
+   0.059449542s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="from_into"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-99ed3ddc5526b524/bin-from_into`
 
 Caused by:
     No such file or directory (os error 2)
@@ -214,8 +215,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.042272917s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="from_str"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "from_str", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/from_str.rs", Edition2024) }
-   0.042281000s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="from_str"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-9289c7b6c6ba6c9b/test-bin-from_str`
+   0.059870000s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="from_str"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "from_str", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/from_str.rs", Edition2024) }
+   0.059874750s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="from_str"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-9289c7b6c6ba6c9b/test-bin-from_str`
 
 Caused by:
     No such file or directory (os error 2)
@@ -238,8 +239,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.042636500s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="from_str"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "from_str", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/from_str.rs", Edition2024) }
-   0.042643417s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="from_str"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-5712fbdde2b6e4bb/bin-from_str`
+   0.060074625s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="from_str"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "from_str", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/from_str.rs", Edition2024) }
+   0.060080292s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="from_str"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-5712fbdde2b6e4bb/bin-from_str`
 
 Caused by:
     No such file or directory (os error 2)
@@ -262,8 +263,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.051666959s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "iterators1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/18_iterators/iterators1.rs", Edition2024) }
-   0.051680709s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-85ec0f0a5de2283b/test-bin-iterators1`
+   0.067188000s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "iterators1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/18_iterators/iterators1.rs", Edition2024) }
+   0.067198375s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-85ec0f0a5de2283b/test-bin-iterators1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -286,8 +287,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.052394250s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "iterators2", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/18_iterators/iterators2.rs", Edition2024) }
-   0.052399792s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-1286b2b36b2cf184/test-bin-iterators2`
+   0.067766459s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "iterators2", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/18_iterators/iterators2.rs", Edition2024) }
+   0.067773417s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-1286b2b36b2cf184/test-bin-iterators2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -310,8 +311,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.052658584s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "iterators2", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/18_iterators/iterators2.rs", Edition2024) }
-   0.052663334s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-fe08f7f38a9d625e/bin-iterators2`
+   0.067985750s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "iterators2", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/18_iterators/iterators2.rs", Edition2024) }
+   0.067989750s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-fe08f7f38a9d625e/bin-iterators2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -334,8 +335,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.053148459s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "iterators3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/18_iterators/iterators3.rs", Edition2024) }
-   0.053152875s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators3"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-f46b85ec7610ae18/test-bin-iterators3`
+   0.068407834s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "iterators3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/18_iterators/iterators3.rs", Edition2024) }
+   0.068411959s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators3"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-f46b85ec7610ae18/test-bin-iterators3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -358,8 +359,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.053757709s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "iterators4", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/18_iterators/iterators4.rs", Edition2024) }
-   0.053762250s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators4"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-07225d881e1d9a36/test-bin-iterators4`
+   0.068933834s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "iterators4", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/18_iterators/iterators4.rs", Edition2024) }
+   0.068938084s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators4"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-07225d881e1d9a36/test-bin-iterators4`
 
 Caused by:
     No such file or directory (os error 2)
@@ -382,8 +383,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.054010042s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "iterators4", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/18_iterators/iterators4.rs", Edition2024) }
-   0.054014375s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators4"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-6f09910c371413c0/bin-iterators4`
+   0.069139417s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "iterators4", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/18_iterators/iterators4.rs", Edition2024) }
+   0.069143625s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators4"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-6f09910c371413c0/bin-iterators4`
 
 Caused by:
     No such file or directory (os error 2)
@@ -406,8 +407,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.054542375s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "iterators5", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/18_iterators/iterators5.rs", Edition2024) }
-   0.054553750s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators5"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-92111a771b7a7d7d/test-bin-iterators5`
+   0.069555000s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "iterators5", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/18_iterators/iterators5.rs", Edition2024) }
+   0.069559292s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators5"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-92111a771b7a7d7d/test-bin-iterators5`
 
 Caused by:
     No such file or directory (os error 2)
@@ -430,8 +431,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.054914042s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "iterators5", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/18_iterators/iterators5.rs", Edition2024) }
-   0.054919917s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators5"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-e55d054745f58bdf/bin-iterators5`
+   0.069760709s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "iterators5", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/18_iterators/iterators5.rs", Edition2024) }
+   0.069764792s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="iterators5"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-e55d054745f58bdf/bin-iterators5`
 
 Caused by:
     No such file or directory (os error 2)
@@ -454,8 +455,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.055536292s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="lifetimes1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "lifetimes1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/16_lifetimes/lifetimes1.rs", Edition2024) }
-   0.055542417s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="lifetimes1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-a9c61decc6b56271/test-bin-lifetimes1`
+   0.071504917s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "macros1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/21_macros/macros1.rs", Edition2024) }
+   0.071510500s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-c97fcab0ed2b6149/test-bin-macros1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -478,8 +479,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.055823500s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="lifetimes1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "lifetimes1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/16_lifetimes/lifetimes1.rs", Edition2024) }
-   0.055828667s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="lifetimes1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-4fae4e0acfb43f0b/bin-lifetimes1`
+   0.071709084s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "macros1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/21_macros/macros1.rs", Edition2024) }
+   0.071714292s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-73904c7d11f87c03/bin-macros1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -502,8 +503,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.056337792s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="lifetimes2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "lifetimes2", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/16_lifetimes/lifetimes2.rs", Edition2024) }
-   0.056342709s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="lifetimes2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-6a1a9f7d3053dc02/test-bin-lifetimes2`
+   0.072152667s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "macros2", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/21_macros/macros2.rs", Edition2024) }
+   0.072159792s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-da47b8c2d2977010/test-bin-macros2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -526,8 +527,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.056601084s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="lifetimes2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "lifetimes2", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/16_lifetimes/lifetimes2.rs", Edition2024) }
-   0.056605709s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="lifetimes2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-f8d4e7a06da67392/bin-lifetimes2`
+   0.072356334s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "macros2", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/21_macros/macros2.rs", Edition2024) }
+   0.072360459s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-76171528846db566/bin-macros2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -550,8 +551,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.057130292s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="lifetimes3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "lifetimes3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/16_lifetimes/lifetimes3.rs", Edition2024) }
-   0.057134750s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="lifetimes3"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-7d9f654fe37965ff/test-bin-lifetimes3`
+   0.072786959s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "macros3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/21_macros/macros3.rs", Edition2024) }
+   0.072794250s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros3"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-59d77bb41d162811/test-bin-macros3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -574,8 +575,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.057413542s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="lifetimes3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "lifetimes3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/16_lifetimes/lifetimes3.rs", Edition2024) }
-   0.057418167s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="lifetimes3"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-2328db9813acf46a/bin-lifetimes3`
+   0.072987167s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "macros3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/21_macros/macros3.rs", Edition2024) }
+   0.072994042s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros3"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-7ce9d5fc99114349/bin-macros3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -598,8 +599,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.058024250s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "macros1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/21_macros/macros1.rs", Edition2024) }
-   0.058030084s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-c97fcab0ed2b6149/test-bin-macros1`
+   0.073405209s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "macros4", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/21_macros/macros4.rs", Edition2024) }
+   0.073412542s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros4"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-c7cdc573e814b3df/test-bin-macros4`
 
 Caused by:
     No such file or directory (os error 2)
@@ -622,8 +623,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.058370000s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "macros1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/21_macros/macros1.rs", Edition2024) }
-   0.058374959s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-73904c7d11f87c03/bin-macros1`
+   0.073618209s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "macros4", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/21_macros/macros4.rs", Edition2024) }
+   0.073624875s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros4"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-3ef3a1eea640225d/bin-macros4`
 
 Caused by:
     No such file or directory (os error 2)
@@ -646,8 +647,18 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.058927209s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "macros2", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/21_macros/macros2.rs", Edition2024) }
-   0.058931834s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-da47b8c2d2977010/test-bin-macros2`
+   0.087327875s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="tests3"}: cargo::core::compiler::fingerprint: stale: changed "/Users/remidesbordes/Documents/Rustling/rustlings/exercises/17_tests/tests3.rs"
+   0.087336292s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="tests3"}: cargo::core::compiler::fingerprint:           (vs) "/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-12be256b0b9a0849/dep-test-bin-tests3"
+   0.087338250s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="tests3"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1785763198, nanos: 204165976 } < FileTime { seconds: 1785763201, nanos: 378546137 }
+   0.087407834s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="tests3"}: cargo::core::compiler::fingerprint: fingerprint dirty for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "tests3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/17_tests/tests3.rs", Edition2024) }
+   0.087416084s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="tests3"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-12be256b0b9a0849/dep-test-bin-tests3", reference_mtime: FileTime { seconds: 1785763198, nanos: 204165976 }, stale: "/Users/remidesbordes/Documents/Rustling/rustlings/exercises/17_tests/tests3.rs", stale_mtime: FileTime { seconds: 1785763201, nanos: 378546137 } }))
+   0.087693834s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="tests3"}: cargo::core::compiler::fingerprint: stale: changed "/Users/remidesbordes/Documents/Rustling/rustlings/exercises/17_tests/tests3.rs"
+   0.087697667s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="tests3"}: cargo::core::compiler::fingerprint:           (vs) "/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-fae600d42abfde1c/dep-bin-tests3"
+   0.087699417s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="tests3"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1785763198, nanos: 9243829 } < FileTime { seconds: 1785763201, nanos: 378546137 }
+   0.087749750s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="tests3"}: cargo::core::compiler::fingerprint: fingerprint dirty for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "tests3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/17_tests/tests3.rs", Edition2024) }
+   0.087754292s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="tests3"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-fae600d42abfde1c/dep-bin-tests3", reference_mtime: FileTime { seconds: 1785763198, nanos: 9243829 }, stale: "/Users/remidesbordes/Documents/Rustling/rustlings/exercises/17_tests/tests3.rs", stale_mtime: FileTime { seconds: 1785763201, nanos: 378546137 } }))
+   0.088218167s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "threads1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/20_threads/threads1.rs", Edition2024) }
+   0.088226209s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-84893e958669eec3/test-bin-threads1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -670,8 +681,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.059231750s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "macros2", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/21_macros/macros2.rs", Edition2024) }
-   0.059236417s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-76171528846db566/bin-macros2`
+   0.088529709s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "threads1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/20_threads/threads1.rs", Edition2024) }
+   0.088534000s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-606bbec64bb85822/bin-threads1`
 
 Caused by:
     No such file or directory (os error 2)
@@ -694,8 +705,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.059786542s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "macros3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/21_macros/macros3.rs", Edition2024) }
-   0.059791125s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros3"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-59d77bb41d162811/test-bin-macros3`
+   0.089011875s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "threads2", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/20_threads/threads2.rs", Edition2024) }
+   0.089016042s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-c545396d3f8b0a2e/test-bin-threads2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -718,8 +729,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.060050667s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "macros3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/21_macros/macros3.rs", Edition2024) }
-   0.060054709s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros3"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-7ce9d5fc99114349/bin-macros3`
+   0.089259292s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "threads2", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/20_threads/threads2.rs", Edition2024) }
+   0.089263459s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-46cc6b944e7886f2/bin-threads2`
 
 Caused by:
     No such file or directory (os error 2)
@@ -742,8 +753,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.060542084s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "macros4", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/21_macros/macros4.rs", Edition2024) }
-   0.060546625s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros4"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-c7cdc573e814b3df/test-bin-macros4`
+   0.089756750s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "threads3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/20_threads/threads3.rs", Edition2024) }
+   0.089761292s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads3"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-cacbf5caae1bc250/test-bin-threads3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -766,8 +777,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.060821584s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "macros4", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/21_macros/macros4.rs", Edition2024) }
-   0.060826125s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="macros4"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-3ef3a1eea640225d/bin-macros4`
+   0.090005709s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "threads3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/20_threads/threads3.rs", Edition2024) }
+   0.090009625s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads3"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-2d754b9046029608/bin-threads3`
 
 Caused by:
     No such file or directory (os error 2)
@@ -790,8 +801,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.070702125s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="quiz3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "quiz3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/quizzes/quiz3.rs", Edition2024) }
-   0.070713667s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="quiz3"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-f7a97256cddae33e/test-bin-quiz3`
+   0.092775500s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="try_from_into"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "try_from_into", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/try_from_into.rs", Edition2024) }
+   0.092780084s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="try_from_into"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-f7fb8f1e77126914/test-bin-try_from_into`
 
 Caused by:
     No such file or directory (os error 2)
@@ -814,8 +825,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.075384542s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="tests1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "tests1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/17_tests/tests1.rs", Edition2024) }
-   0.075397292s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="tests1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-e9a82874fa69f07b/test-bin-tests1`
+   0.093052584s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="try_from_into"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "try_from_into", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/try_from_into.rs", Edition2024) }
+   0.093056667s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="try_from_into"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-023bd0fc4a1e2dae/bin-try_from_into`
 
 Caused by:
     No such file or directory (os error 2)
@@ -838,8 +849,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.076111875s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="tests2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "tests2", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/17_tests/tests2.rs", Edition2024) }
-   0.076117167s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="tests2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-9cb86a5097b386fd/test-bin-tests2`
+   0.093529292s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="using_as"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "using_as", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/using_as.rs", Edition2024) }
+   0.093536792s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="using_as"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-57a4bfb20eb5b8d0/test-bin-using_as`
 
 Caused by:
     No such file or directory (os error 2)
@@ -862,426 +873,8 @@ Stack backtrace:
   14: std::rt::lang_start::<()>::{closure#0}
   15: std::rt::lang_start_internal
   16: _main
-   0.076751334s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="tests3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "tests3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/17_tests/tests3.rs", Edition2024) }
-   0.076757917s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="tests3"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-12be256b0b9a0849/test-bin-tests3`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.077463959s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "threads1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/20_threads/threads1.rs", Edition2024) }
-   0.077470792s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-84893e958669eec3/test-bin-threads1`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.077748875s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads1"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "threads1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/20_threads/threads1.rs", Edition2024) }
-   0.077753542s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads1"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-606bbec64bb85822/bin-threads1`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.078275000s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "threads2", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/20_threads/threads2.rs", Edition2024) }
-   0.078280250s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-c545396d3f8b0a2e/test-bin-threads2`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.078652875s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "threads2", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/20_threads/threads2.rs", Edition2024) }
-   0.078659792s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-46cc6b944e7886f2/bin-threads2`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.079291375s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "threads3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/20_threads/threads3.rs", Edition2024) }
-   0.079296834s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads3"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-cacbf5caae1bc250/test-bin-threads3`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.079593667s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "threads3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/20_threads/threads3.rs", Edition2024) }
-   0.079599125s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="threads3"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-2d754b9046029608/bin-threads3`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.080168042s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits1"}: cargo::core::compiler::fingerprint: stale: changed "/Users/remidesbordes/Documents/Rustling/rustlings/exercises/15_traits/traits1.rs"
-   0.080172750s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits1"}: cargo::core::compiler::fingerprint:           (vs) "/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-1623415960507533/dep-test-bin-traits1"
-   0.080174542s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits1"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1785499531, nanos: 149474569 } < FileTime { seconds: 1785499534, nanos: 392650684 }
-   0.080242250s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits1"}: cargo::core::compiler::fingerprint: fingerprint dirty for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "traits1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/15_traits/traits1.rs", Edition2024) }
-   0.080247417s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits1"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-1623415960507533/dep-test-bin-traits1", reference_mtime: FileTime { seconds: 1785499531, nanos: 149474569 }, stale: "/Users/remidesbordes/Documents/Rustling/rustlings/exercises/15_traits/traits1.rs", stale_mtime: FileTime { seconds: 1785499534, nanos: 392650684 } }))
-   0.080485750s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits1"}: cargo::core::compiler::fingerprint: stale: changed "/Users/remidesbordes/Documents/Rustling/rustlings/exercises/15_traits/traits1.rs"
-   0.080488625s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits1"}: cargo::core::compiler::fingerprint:           (vs) "/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-82a2e9baa747fb6c/dep-bin-traits1"
-   0.080490292s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits1"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1785499530, nanos: 741454518 } < FileTime { seconds: 1785499534, nanos: 392650684 }
-   0.080554834s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits1"}: cargo::core::compiler::fingerprint: fingerprint dirty for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "traits1", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/15_traits/traits1.rs", Edition2024) }
-   0.080560334s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits1"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-82a2e9baa747fb6c/dep-bin-traits1", reference_mtime: FileTime { seconds: 1785499530, nanos: 741454518 }, stale: "/Users/remidesbordes/Documents/Rustling/rustlings/exercises/15_traits/traits1.rs", stale_mtime: FileTime { seconds: 1785499534, nanos: 392650684 } }))
-   0.081534959s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits2"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "traits2", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/15_traits/traits2.rs", Edition2024) }
-   0.081544042s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-72adf9a91fd25b09/test-bin-traits2`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.082457417s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "traits3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/15_traits/traits3.rs", Edition2024) }
-   0.082468917s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits3"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-6611ade4e89b137b/test-bin-traits3`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.082834542s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits3"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "traits3", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/15_traits/traits3.rs", Edition2024) }
-   0.082840959s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits3"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-0921c0194828ad29/bin-traits3`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.083378542s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "traits4", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/15_traits/traits4.rs", Edition2024) }
-   0.083384792s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits4"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-c15cf07c50b52f37/test-bin-traits4`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.083695542s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits4"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "traits4", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/15_traits/traits4.rs", Edition2024) }
-   0.083708042s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits4"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-a9ef0fcfb31b4412/bin-traits4`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.084299584s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "traits5", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/15_traits/traits5.rs", Edition2024) }
-   0.084305709s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits5"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-88291ddd1ea88b1a/test-bin-traits5`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.084575375s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits5"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "traits5", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/15_traits/traits5.rs", Edition2024) }
-   0.084580334s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="traits5"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-26006fa2d3dc5b9e/bin-traits5`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.085124500s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="try_from_into"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "try_from_into", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/try_from_into.rs", Edition2024) }
-   0.085131334s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="try_from_into"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-f7fb8f1e77126914/test-bin-try_from_into`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.085401792s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="try_from_into"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "try_from_into", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/try_from_into.rs", Edition2024) }
-   0.085406792s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="try_from_into"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-023bd0fc4a1e2dae/bin-try_from_into`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.085914084s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="using_as"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: true }/TargetInner { name: "using_as", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/using_as.rs", Edition2024) }
-   0.085918875s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="using_as"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-57a4bfb20eb5b8d0/test-bin-using_as`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <std::backtrace::Backtrace>::create
-   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
-   2: cargo_util::paths::read
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::cli::main
-  12: cargo::main
-  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  14: std::rt::lang_start::<()>::{closure#0}
-  15: std::rt::lang_start_internal
-  16: _main
-   0.086191000s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="using_as"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "using_as", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/using_as.rs", Edition2024) }
-   0.086198875s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="using_as"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-6998e7b4ad8856bb/bin-using_as`
+   0.093781959s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="using_as"}: cargo::core::compiler::fingerprint: fingerprint error for exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)/Check { test: false }/TargetInner { name: "using_as", doc: true, ..: with_path("/Users/remidesbordes/Documents/Rustling/rustlings/exercises/23_conversions/using_as.rs", Edition2024) }
+   0.093786250s  INFO prepare_target{force=false package_id=exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings) target="using_as"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/remidesbordes/Documents/Rustling/rustlings/target/debug/.fingerprint/exercises-6998e7b4ad8856bb/bin-using_as`
 
 Caused by:
     No such file or directory (os error 2)
@@ -1305,58 +898,41 @@ Stack backtrace:
   15: std::rt::lang_start_internal
   16: _main
     Checking exercises v0.0.0 (/Users/remidesbordes/Documents/Rustling/rustlings)
-error: could not compile `exercises` (bin "lifetimes3" test) due to 2 previous errors
+error: could not compile `exercises` (bin "macros4" test) due to 1 previous error
 warning: build failed, waiting for other jobs to finish...
-error: could not compile `exercises` (bin "macros3") due to 1 previous error; 1 warning emitted
-error: could not compile `exercises` (bin "box1" test) due to 1 previous error
-error: could not compile `exercises` (bin "traits3" test) due to 2 previous errors
-error: could not compile `exercises` (bin "using_as" test) due to 1 previous error
-error: could not compile `exercises` (bin "iterators5" test) due to 2 previous errors
-error: could not compile `exercises` (bin "arc1") due to 2 previous errors
-error: could not compile `exercises` (bin "tests1" test) due to 2 previous errors
-error: could not compile `exercises` (bin "as_ref_mut") due to 2 previous errors; 1 warning emitted
-error: could not compile `exercises` (bin "threads3") due to 1 previous error
-error: could not compile `exercises` (bin "threads1") due to 1 previous error
-error: could not compile `exercises` (bin "traits4" test) due to 5 previous errors
-error: could not compile `exercises` (bin "traits3") due to 2 previous errors
-error: could not compile `exercises` (bin "cow1" test) due to 3 previous errors
-error: could not compile `exercises` (bin "threads1" test) due to 1 previous error
-error: could not compile `exercises` (bin "iterators2") due to 2 previous errors; 1 warning emitted
-error: could not compile `exercises` (bin "macros1") due to 1 previous error; 1 warning emitted
-error: could not compile `exercises` (bin "macros1" test) due to 1 previous error; 1 warning emitted
-error: could not compile `exercises` (bin "from_into" test) due to 1 previous error
-error: could not compile `exercises` (bin "lifetimes1") due to 1 previous error
-error: could not compile `exercises` (bin "traits4") due to 5 previous errors
-error: could not compile `exercises` (bin "iterators5") due to 2 previous errors
-error: could not compile `exercises` (bin "iterators2" test) due to 2 previous errors; 1 warning emitted
-error: could not compile `exercises` (bin "iterators1" test) due to 1 previous error; 7 warnings emitted
-error: could not compile `exercises` (bin "try_from_into") due to 3 previous errors
-error: could not compile `exercises` (bin "box1") due to 1 previous error
-error: could not compile `exercises` (bin "threads2") due to 1 previous error; 1 warning emitted
-error: could not compile `exercises` (bin "lifetimes2") due to 1 previous error
-error: could not compile `exercises` (bin "traits5" test) due to 3 previous errors
 error: could not compile `exercises` (bin "macros4") due to 1 previous error
 error: could not compile `exercises` (bin "macros2" test) due to 1 previous error; 1 warning emitted
-error: could not compile `exercises` (bin "lifetimes2" test) due to 1 previous error
-error: could not compile `exercises` (bin "macros4" test) due to 1 previous error
-error: could not compile `exercises` (bin "macros2") due to 1 previous error; 1 warning emitted
-error: could not compile `exercises` (bin "arc1" test) due to 2 previous errors
 error: could not compile `exercises` (bin "iterators4" test) due to 1 previous error
-error: could not compile `exercises` (bin "quiz3" test) due to 1 previous error
-error: could not compile `exercises` (bin "as_ref_mut" test) due to 2 previous errors; 1 warning emitted
-error: could not compile `exercises` (bin "threads2" test) due to 1 previous error; 1 warning emitted
-error: could not compile `exercises` (bin "traits5") due to 3 previous errors
-error: could not compile `exercises` (bin "from_into") due to 1 previous error
-error: could not compile `exercises` (bin "lifetimes3") due to 2 previous errors
-error: could not compile `exercises` (bin "lifetimes1" test) due to 1 previous error
-error: could not compile `exercises` (bin "using_as") due to 1 previous error
+error: could not compile `exercises` (bin "macros1" test) due to 1 previous error; 1 warning emitted
+error: could not compile `exercises` (bin "box1" test) due to 1 previous error
+error: could not compile `exercises` (bin "macros3") due to 1 previous error; 1 warning emitted
+error: could not compile `exercises` (bin "from_into" test) due to 1 previous error
+error: could not compile `exercises` (bin "macros2") due to 1 previous error; 1 warning emitted
+error: could not compile `exercises` (bin "threads2") due to 1 previous error; 1 warning emitted
+error: could not compile `exercises` (bin "arc1") due to 2 previous errors
+error: could not compile `exercises` (bin "arc1" test) due to 2 previous errors
+error: could not compile `exercises` (bin "box1") due to 1 previous error
+error: could not compile `exercises` (bin "threads1" test) due to 1 previous error
+error: could not compile `exercises` (bin "macros1") due to 1 previous error; 1 warning emitted
 error: could not compile `exercises` (bin "iterators4") due to 1 previous error
-error: could not compile `exercises` (bin "from_str") due to 1 previous error
-error: could not compile `exercises` (bin "tests2" test) due to 4 previous errors
-error: could not compile `exercises` (bin "traits2" test) due to 1 previous error
+error: could not compile `exercises` (bin "cow1" test) due to 3 previous errors
+error: could not compile `exercises` (bin "iterators5" test) due to 2 previous errors
+error: could not compile `exercises` (bin "threads2" test) due to 1 previous error; 1 warning emitted
+error: could not compile `exercises` (bin "threads1") due to 1 previous error
 error: could not compile `exercises` (bin "threads3" test) due to 1 previous error
-error: could not compile `exercises` (bin "macros3" test) due to 1 previous error; 1 warning emitted
-error: could not compile `exercises` (bin "try_from_into" test) due to 3 previous errors
-error: could not compile `exercises` (bin "tests3" test) due to 2 previous errors; 4 warnings emitted
+error: could not compile `exercises` (bin "using_as") due to 1 previous error
 error: could not compile `exercises` (bin "from_str" test) due to 1 previous error
+error: could not compile `exercises` (bin "iterators5") due to 2 previous errors
+error: could not compile `exercises` (bin "as_ref_mut" test) due to 2 previous errors; 1 warning emitted
+error: could not compile `exercises` (bin "threads3") due to 1 previous error
+error: could not compile `exercises` (bin "iterators2") due to 2 previous errors; 1 warning emitted
+error: could not compile `exercises` (bin "try_from_into") due to 3 previous errors
+error: could not compile `exercises` (bin "using_as" test) due to 1 previous error
+error: could not compile `exercises` (bin "from_str") due to 1 previous error
+error: could not compile `exercises` (bin "macros3" test) due to 1 previous error; 1 warning emitted
 error: could not compile `exercises` (bin "iterators3" test) due to 2 previous errors; 4 warnings emitted
+error: could not compile `exercises` (bin "iterators2" test) due to 2 previous errors; 1 warning emitted
+error: could not compile `exercises` (bin "from_into") due to 1 previous error
+error: could not compile `exercises` (bin "try_from_into" test) due to 3 previous errors
+error: could not compile `exercises` (bin "as_ref_mut") due to 2 previous errors; 1 warning emitted
+error: could not compile `exercises` (bin "iterators1" test) due to 1 previous error; 7 warnings emitted

@@ -12,18 +12,19 @@
 // block to support alphabetical report cards in addition to numerical ones.
 
 // TODO: Adjust the struct as described above.
-struct ReportCard {
-    grade: f32,
+struct ReportCard<T> {
+    grade: T,
     student_name: String,
     student_age: u8,
 }
 
 // TODO: Adjust the impl block as described above.
-impl ReportCard {
+impl <T: std::fmt::Display> ReportCard<T> { // Ici, :std::fmt::Display sert à dire au constructeur qu'on accepte que ces types qui implémente ce trait
+// Sans cette déclaration, format! ne veut pas l'accepter car il a besoin que les variables puissent s'afficher 
     fn print(&self) -> String {
         format!(
             "{} ({}) - achieved a grade of {}",
-            &self.student_name, &self.student_age, &self.grade,
+            self.student_name, self.student_age, self.grade,
         )
     }
 }
