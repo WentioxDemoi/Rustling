@@ -1,0 +1,1 @@
+Map<std::array::IntoIter<i64, 4>, {closure@exercises/18_iterators/iterators3.rs:29:52: 29:55}>
